@@ -1,0 +1,13 @@
+{
+  "name": "steadfast-pdf-api",
+  "version": "1.0.0",
+  "description": "API to generate Steadfast PDFs",
+  "main": "api/generate.js",
+  "scripts": {
+    "start": "node api/generate.js"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^123.0.1",
+    "puppeteer-core": "^22.6.0"
+  }
+}
