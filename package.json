@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node api/generate.js"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "@sparticuz/chromium": "^123.0.1",
     "puppeteer-core": "^22.6.0"
